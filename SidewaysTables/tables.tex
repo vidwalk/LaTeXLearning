@@ -1,0 +1,98 @@
+\documentclass{article}
+\usepackage{xcolor,supertabular,multicol}
+\usepackage{fancyhdr,booktabs,array}
+\usepackage[margin=1.3in]{geometry}
+\usepackage{dblfloatfix}
+\usepackage[font=Large,labelfont=bf]{caption}
+\begin{document}
+		\begin{multicols*}{2}
+		\let\mcnewpage=\newpage
+			\makeatletter
+			\renewcommand\newpage{%
+				\if@firstcolumn
+				\hrule width\linewidth height0pt
+				\columnbreak
+				\else
+				\mcnewpage
+				\fi
+		}%It's possible to trick supertabular to work inside a multicols environment by redefining \newpage to be \columnbreak in the first column and \newpage in the second. I also needed to stick a height 0, width \linewidth rule at the bottom of the first column. Strange things happen without it.
+		\centering
+		\begin {minipage}{\linewidth}
+		\tablecaption{Osmark 5}
+		\begin{supertabular}{c*{6}{>{\centering\arraybackslash}p{1em}}c@{}}
+		& 1 & 2 & 3 & 4 & 5 & 6\\
+		1 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		2 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		3 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		4 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		5 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		6 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		7 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		8 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		9 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		10 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		11 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		12 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		13 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		14 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		15 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		16 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		17 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		18 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		19 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		20 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		21 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		22 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		23 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		24 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		25 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		26 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		27 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		28 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		29 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		30 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){}\\	
+		\end{supertabular} 
+	 	\end{minipage}
+ 		\fbox{\begin{minipage}{40em}
+ 			1 - Aktivitet af Rotter 2- Aktivitet af Mus 3 - Tegn på rotter omkring ejendommen \\4 - Oprydning omkring ejendommen anbefales 5 - Anbefales at diverse ukrudt slåes ned så der er adgang til kasserne og så rotterne ikke får adgang til bygningerne 6 - Bærkninger
+ 		\end{minipage}}
+		\newpage
+		\begin {minipage}{\linewidth}
+		\topcaption{Osmark 10}
+		\begin{supertabular}{l*{6}{>{\centering\arraybackslash}p{1em}}c@{}}
+		& 1 & 2 & 3 & 4 & 5 & 6\\
+		31 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		32 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		33 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		34 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		35 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		36 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		37 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		38 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		39 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		40 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		41 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		42 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		43 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		44 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		45 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		46 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		47 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		48 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		49 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		50 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		51 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		52 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		53 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		54 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		55 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		56 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		57 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		58 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		59 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} &\\
+		60 Station  & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){} & \framebox(12,12){}\\
+	\end{supertabular}
+	\end{minipage}
+	\end{multicols*}
+	
+\end{document}

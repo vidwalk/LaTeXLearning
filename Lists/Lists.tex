@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\begin{document}
+	You can also link to bare URLs without an additional description: \url{http://www.latex-tutorial.com}
+	
+	My email address is: \href{mailto:claudio.vellage@latex-tutorial.com}{claudio.vellage@latex-tutorial.com}
+	
+	
+	\begin{itemize}
+		\item One
+		\item Two
+		\item Three
+	\end{itemize}
+
+
+\begin{enumerate}
+	\item One
+	\item Two
+	\item Three
+\end{enumerate}
+
+
+\begin{enumerate}[label=(\roman*)]
+	\item One
+	\begin{enumerate}
+		\item Two
+		\item Three
+		\item Four
+	\end{enumerate}
+	\item Five
+	\item Six
+\end{enumerate}
+
+
+\begin{enumerate}
+	\item One
+	\begin{enumerate}[label=\alph*)]
+		\item Two
+		\item Three
+		\item Four
+	\end{enumerate}
+	\item Five
+	\item Six
+\end{enumerate}
+
+
+\begin{itemize}[label=$\ast$]
+	\item One
+	\item Two
+	\item Three
+\end{itemize}
+\end{document}

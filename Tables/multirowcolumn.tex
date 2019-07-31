@@ -1,0 +1,98 @@
+\documentclass{article}
+
+\usepackage{multirow}
+\usepackage{booktabs} % For prettier tables
+\usepackage{longtable} % To display tables on several pages
+
+\begin{document}
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Multirow table.}
+			\label{tab:table1}
+			\begin{tabular}{l|c|r}
+				\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+				$\alpha$ & $\beta$ & $\gamma$ \\
+				\hline
+				\multirow{2}{*}{12} & 1110.1 & a\\ % <-- Combining 2 rows with arbitrary with (*) and content 12
+				& 10.1 & b\\ % <-- Content of first column omitted.
+				\hline
+				3 & 23.113231 & c\\
+				4 & 25.113231 & d\\
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Multicolumn table.}
+			\label{tab:table1}
+			\begin{tabular}{l|c|r}
+				\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+				$\alpha$ & $\beta$ & $\gamma$ \\
+				\hline
+				\multicolumn{2}{c|}{12} & a\\ % <-- Combining two cells with alignment c| and content 12.
+				\hline
+				2 & 10.1 & b\\
+				3 & 23.113231 & c\\
+				4 & 25.113231 & d\\
+			\end{tabular}
+		\end{center}
+	\end{table}
+
+\begin{table}[h!]
+	\begin{center}
+		\caption{Multirow and -column table.}
+		\label{tab:table1}
+		\begin{tabular}{l|c|r}
+			\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+			$\alpha$ & $\beta$ & $\gamma$ \\
+			\hline
+			\multicolumn{2}{c|}{\multirow{2}{*}{1234}} & a\\ % <-- Multicolumn spanning 2 columns, content multirow spanning two rows
+			\multicolumn{2}{c|}{} & b\\ % <-- Multicolumn spanning 2 columns with empty content as placeholder
+			\hline
+			3 & 23.113231 & c\\
+			4 & 25.113231 & d\\
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[h!]
+	\begin{center}
+		\caption{Table using booktabs.}
+		\label{tab:table1}
+		\begin{tabular}{l|c|r}
+			\toprule % <-- Toprule here
+			\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+			$\alpha$ & $\beta$ & $\gamma$ \\
+			\midrule % <-- Midrule here
+			1 & 1110.1 & a\\
+			2 & 10.1 & b\\
+			3 & 23.113231 & c\\
+			\bottomrule % <-- Bottomrule here
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{longtable}[c]{l|c|r} % <-- Replaces \begin{table}, alignment must be specified here (no more tabular)
+	\caption{Multipage table.}
+	\label{tab:table1}\\
+	\toprule
+	\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+	$\alpha$ & $\beta$ & $\gamma$ \\
+	\midrule
+	\endfirsthead % <-- This denotes the end of the header, which will be shown on the first page only
+	\toprule
+	\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+	$\alpha$ & $\beta$ & $\gamma$ \\
+	\midrule
+	\endhead % <-- Everything between \endfirsthead and \endhead will be shown as a header on every page
+	1 & 1110.1 & a\\
+	2 & 10.1 & b\\
+	% ...
+	% ... Many rows in between
+	% ...
+	3 & 23.113231 & c\\
+	\bottomrule
+\end{longtable}
+
+\end{document}
