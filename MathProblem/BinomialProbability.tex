@@ -1,0 +1,64 @@
+\documentclass[12pt, a4paper]{problemClass}
+\font\myfont=cmr12 at 27pt
+\title{{\myfont Binomial Theorem in Probability Problem}}
+\date{18-10-2019}
+\author{Claudiu Rediu}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\renewcommand\qedsymbol{$\blacksquare$}
+\usepackage{float}
+
+\begin{document}
+	\pagenumbering{gobble}
+	\maketitle
+	\newpage
+	\pagenumbering{arabic}
+	\newpage
+	
+	\solutiontrue  % <---- Toggle showing solutions or not
+	%\solutionfalse
+	
+		\begin{problem}{Probability of even number of heads}
+			
+			A coin with $p\{h\} = p = 1 - q$ is tossed n times. Show that the probability that the number of heads is even equals $\dfrac{1}{2}[1 + (q-p)^n]$
+			
+			
+			\begin{solution}
+				$P_{2k}$ = probability of the number of heads being even \\
+				$X_{i}$ = event of 2i even tosses, $i = 1,2,3...$ \\
+				The set of of the number of heads being even is
+			\begin{equation}
+			\{2k\ heads\} = X_{0} \cup X_{1} \cup ... X_{k}
+			\end{equation}
+				The probability of 2i even tosses is
+			\begin{equation}
+			P(X_{i}) = \binom{n}{2i}p^{2i}q^{n-2i}
+			\end{equation}
+				So the total probability of all events with even number of heads is
+			\begin{equation}
+			P_{2k} = P(\bigcup\limits_{i=0}^{k} X_{i}) = \sum_{i=0}^{i=k}P(X_{i}) = \sum_{i=0}^{i=k}\binom{n}{2i}p^{2i}q^{n-2i}
+			\end{equation}
+				What we got in the right side is all the binomial coefficients with p to an even power. That is the result of
+			\begin{equation}
+			\sum_{i=0}^{i=k}\binom{n}{2i}p^{2i}q^{n-2i} = \dfrac{1}{2}[ \sum_{i=0}^{i=k}\binom{n}{i}p^{i}q^{n-i} + \sum_{i=0}^{i=k}(-1)^{i}\binom{n}{i}p^{i}q^{n-i}]
+			\end{equation}
+				We divide by two to remove the overcount on the even coefficients. Now what is between the brackets is the binomial decomposition of $(q+p)^n$ and $(q-p)^n$
+				
+			\begin{equation}
+			P_{2k} = \dfrac{1}{2}[(q+p)^n + (q-p)^n]
+			\end{equation}
+				But $q+p = 1$, so we get the desired result:
+			\begin{equation}
+			P_{2k} = \dfrac{1}{2}[1 + (q-p)^n]
+			\end{equation}
+				
+			\end{solution}
+		\end{problem}
+
+	
+\end{document}

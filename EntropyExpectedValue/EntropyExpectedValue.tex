@@ -1,0 +1,43 @@
+\documentclass[11pt, a4paper]{article}
+\title{{Entropy as Expected Value}}
+\date{23-12-2019}
+\author{Claudiu Rediu}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\renewcommand\qedsymbol{$\blacksquare$}
+\usepackage{float}
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition} %the * is such that the definition are not numbered
+\theoremstyle{theorem}
+\newtheorem*{theorem}{Proposition}
+
+\begin{document}
+	\pagenumbering{gobble}
+	\maketitle
+	\newpage
+	\pagenumbering{arabic}
+	\newpage
+	\begin{theorem}
+		If $x$ and $y$ are two random variables with respective densities $a(x)$ and $b(y)$, then
+		$$ \mathbf{E}\{\ln{a(x)}\} \geq \mathbf{E}\{\ln{b(x)}\}$$
+		
+		Equality holds iff $a(x) = b(x)$
+	\end{theorem}
+
+	\begin{proof}
+	
+
+		Suppose we have $x$ and $y$ two random variables with their respective densities $a(x)$ and $b(y)$ such that $z=b(x)/a(x)$. We apply the inequality $\ln{z} \leq z - 1$ and obtain $$ \ln{b(x)} - \ln{a(x)} = \ln{\frac{b(x)}{a(x)}} \leq \frac{b(x)}{a(x)} - 1$$
+		We multiply this by a(x) and integrate to obtain $$\int_{-\infty}^{\infty} a(x)[\ln{b(x)} - \ln{a(x)}]dx \leq \int_{-\infty}^{\infty}[\ln{b(x)} - \ln{a(x)}]dx = 0$$
+		The right side is 0 because the functions $a(x)$ and $b(y)$ are densities by assumption. If we continue, we obtain $$\int_{-\infty}^{\infty}a(x)\ln{b(x)} - a(x)\ln{a(x)} dx\leq 0$$
+		This gets us to the result $$\int_{-\infty}^{\infty}a(x)\ln{b(x)}dx \leq \int_{-\infty}^{\infty}a(x)\ln{a(x)}dx$$
+		Then we can conclude that $$ \mathbf{E}\{\ln{a(x)}\} \geq \mathbf{E}\{\ln{b(x)}\}$$
+	\end{proof}
+
+\end{document}

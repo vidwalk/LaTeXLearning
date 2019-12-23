@@ -1,0 +1,84 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.9)  18 OCT 2019 12:12
+entering extended mode
+**./problemClass.tex
+(problemClass.tex
+LaTeX2e <2018-12-01>
+
+LaTeX Warning: You have requested package `',
+               but the package provides `MathProblemSolution'.
+
+Package: MathProblemSolution 2019/10/18 ProblemSolution
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
+"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placein
+s.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/environ\environ.
+sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/trimspaces\trims
+paces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks14
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xifthen\xifthen.
+sty"
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count90
+\calc@Cskip=\skip45
+) ("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.st
+y"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifmtarg\ifmtarg.
+sty"
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+\c@ProblemNum=\count91
+\c@SubProblemNum=\count92
+)
+! Emergency stop.
+<*> ./problemClass.tex
+                      
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 460 strings out of 492895
+ 6666 string characters out of 3122802
+ 62969 words of memory out of 3000000
+ 4440 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,0n,19p,152b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

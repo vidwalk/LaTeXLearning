@@ -1,24 +1,20 @@
 \documentclass{article}
 
-\usepackage{siunitx}
-
-\sisetup{
-round-mode = places, % Rounds numbers
-round-precision= 2,  % to 2 places
-}
 
 \begin{document}
 	\begin{table}[h!]
 		\begin{center}
-			\caption{Table with aligned units.}
-			\label{tab:table1}
-			\begin{tabular}{l|S|r} % <-- Changed to S here.
-				\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
-				$\alpha$ & $\beta$ & $\gamma$ \\
+			\caption{Table for expected commute expenses.}
+			\begin{tabular}{lcr} % <-- Changed to S here.
+				\textbf{Month} & \textbf{Days} & \textbf{Expected Total(DKK)}\\
 				\hline
-				1 & 1110.1 & a\\
-				2 & 10.1 & b\\
-				3 & 23.113231 & c\\
+				Aug & 10 & 0\\
+				Sep & 21 & 0\\
+				Oct & 23 & 588\\
+				Nov & 21 & 1255.8\\
+				Dec & 18 & 1076.4\\
+				Jan & 18 & 1076.4\\
+				\hline
 			\end{tabular}
 		\end{center}
 	\end{table}
