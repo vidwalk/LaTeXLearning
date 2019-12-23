@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage{multirow}
+\usepackage{booktabs} % For prettier tables
+\usepackage{longtable} % To display tables on several pages
+\usepackage{tabularx}
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.85}
+\begin{document}
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Use Case Template}
+			\label{tab:table1}
+			\begin{tabular}{l|l}
+				\textbf{Type} & \textbf{Description} \\
+				\hline
+				Use Case Name: & Open/Close Window Remotely \\
+				\rowcolor{Gray}
+				Scope: & Climatizer\\		
+				\multirow{3}{*}{Pre-conditions:} & The application is opened\\ % <-- Combining 2 rows with arbitrary with (*) and content 12
+				& The actuator is connected to the window\\ % <-- Content of first column omitted.
+				& The admin is authenticated \\
+				\rowcolor{Gray}
+				Post-conditions: & The actuator starts opening/closing the window \\
+				Pre-conditions: & \begin{minipage}{3in}
+					\vskip 2pt
+					\begin{enumerate}
+						\item The admin decides to open the window
+						\item The admin presses the button “open/close the window”
+						\item The system asks for confirmation “Are you sure you want to open/close the window?”
+						\item The admin presses “Yes”
+						\item The actuator starts.
+					\end{enumerate}
+					\vskip 2pt
+				\end{minipage}\\
+				\rowcolor{Gray}
+				Extensions: & \begin{minipage}{3in}
+					\vskip 2pt
+					\begin{itemize}
+						
+						\item[] 4a. The user presses “No” 
+						\begin{enumerate}
+							
+							\item Skip step 5.
+							
+						\end{enumerate}
+						\item[] 5a. The window is already opened
+						\begin{enumerate}
+							
+							\item The actuator closes the window.
+							
+							
+						\end{enumerate}
+						\item[] 5b. The window is opening/closing
+						\begin{enumerate}
+							
+							\item The system notifies the user “The window is opening/closing”
+							
+						\end{enumerate}
+					\end{itemize}
+					\vskip 2pt
+				\end{minipage}\\
+				Note: & \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+
+\end{document}
