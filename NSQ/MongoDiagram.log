@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.9)  25 JAN 2020 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.9)  21 MAR 2020 18:25
 entering extended mode
-**./Logbook.tex
-(Logbook.tex
+**./MongoDiagram.tex
+(MongoDiagram.tex
 LaTeX2e <2018-12-01>
 ("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
 "
@@ -20,6 +20,20 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhd
+r.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
 )
 ("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperre
 f.sty"
@@ -145,36 +159,58 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip43
+\Hy@SectionHShift=\skip52
 )
-("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumite
-m.sty"
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip44
-\enit@outerparindent=\dimen107
-\enit@toks=\toks15
-\enit@inbox=\box27
-\enit@count@id=\count98
-\enitdp@description=\count99
-) (Logbook.aux)
-\openout1 = `Logbook.aux'.
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendi
+x.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count98
+\c@@ppsavesec=\count99
+\c@@ppsaveapp=\count100
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+x.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 9.
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+s.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.st
+y"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gra
+phics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
+tex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+) (MongoDiagram.aux)
+\openout1 = `MongoDiagram.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 15.
 
 ("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
 .sty"
@@ -184,66 +220,119 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count100
+\c@section@level=\count101
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
- (Logbook.out) (Logbook.out)
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
+ (MongoDiagram.out) (MongoDiagram.out)
 \@outlinefile=\write3
-\openout3 = `Logbook.out'.
+\openout3 = `MongoDiagram.out'.
 
+
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
+-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen109
+\scratchbox=\box28
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen110
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks16
+)
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopd
+f-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.
+sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 18.
  [1
 
 {C:/Users/Claudiu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
-
-("C:\Users\Claudiu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
-[1] [2] [3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
- (Logbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+<ConceptualModel.pdf, id=10, 585.68813pt x 356.0803pt>
+File: ConceptualModel.pdf Graphic file (type pdf)
+<use ConceptualModel.pdf>
+Package pdftex.def Info: ConceptualModel.pdf  used on input line 24.
+(pdftex.def)             Requested size: 345.0pt x 209.75955pt.
+<AmazonMongoDB.pdf, id=11, 594.30032pt x 397.485pt>
+File: AmazonMongoDB.pdf Graphic file (type pdf)
+<use AmazonMongoDB.pdf>
+Package pdftex.def Info: AmazonMongoDB.pdf  used on input line 35.
+(pdftex.def)             Requested size: 345.0pt x 230.74767pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
 
 
-Package rerunfilecheck Warning: File `Logbook.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package rerunfilecheck Info: Checksums for `Logbook.out':
-(rerunfilecheck)             Before: 68187BA3D9DFC12104A4A41A31F9FE59;1367
-(rerunfilecheck)             After:  14AFFD02099CD6DB1171DEF2F280B57A;1437.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+<VIAUniversityLogo.pdf, id=12, 619.56468pt x 201.00093pt>
+File: VIAUniversityLogo.pdf Graphic file (type pdf)
+<use VIAUniversityLogo.pdf>
+Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 39.
+(pdftex.def)             Requested size: 75.28152pt x 24.4227pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 28.02274pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1 <./VIAUniversityLogo.pdf> <./ConceptualModel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./ConceptualModel.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+File: VIAUniversityLogo.pdf Graphic file (type pdf)
+<use VIAUniversityLogo.pdf>
+Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 39.
+(pdftex.def)             Requested size: 75.28152pt x 24.4227pt.
+ [2 <./AmazonMongoDB.pdf
+
+pdfTeX warning: pdflatex.exe (file ./AmazonMongoDB.pdf): PDF inclusion: invalid
+ other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+ (MongoDiagram.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package rerunfilecheck Info: File `MongoDiagram.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 4595 strings out of 492895
- 70594 string characters out of 3122802
- 160815 words of memory out of 3000000
- 8498 multiletter control sequences out of 15000+200000
- 7280 words of font info for 26 fonts, out of 3000000 for 9000
+ 5228 strings out of 492895
+ 78992 string characters out of 3122802
+ 166714 words of memory out of 3000000
+ 9121 multiletter control sequences out of 15000+200000
+ 7579 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,28p,212b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,14n,43p,624b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Claudiu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Claudiu/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr10.pfb><C:/Users/Claudiu/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Claudiu/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Claudiu/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Logbook.pdf (7 pages, 77787 bytes).
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on MongoDiagram.pdf (3 pages, 200097 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
