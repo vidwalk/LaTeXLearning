@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.9)  21 MAR 2020 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.9)  29 MAR 2020 15:40
 entering extended mode
 **./MongoDiagram.tex
 (MongoDiagram.tex
@@ -274,20 +274,20 @@ File: ConceptualModel.pdf Graphic file (type pdf)
 <use ConceptualModel.pdf>
 Package pdftex.def Info: ConceptualModel.pdf  used on input line 24.
 (pdftex.def)             Requested size: 345.0pt x 209.75955pt.
-<AmazonMongoDB.pdf, id=11, 594.30032pt x 397.485pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+<AmazonMongoDB.pdf, id=12, 615.25856pt x 439.6425pt>
 File: AmazonMongoDB.pdf Graphic file (type pdf)
 <use AmazonMongoDB.pdf>
-Package pdftex.def Info: AmazonMongoDB.pdf  used on input line 35.
-(pdftex.def)             Requested size: 345.0pt x 230.74767pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<VIAUniversityLogo.pdf, id=12, 619.56468pt x 201.00093pt>
+Package pdftex.def Info: AmazonMongoDB.pdf  used on input line 36.
+(pdftex.def)             Requested size: 345.0pt x 246.52682pt.
+<VIAUniversityLogo.pdf, id=13, 619.56468pt x 201.00093pt>
 File: VIAUniversityLogo.pdf Graphic file (type pdf)
 <use VIAUniversityLogo.pdf>
-Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 39.
+Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 40.
 (pdftex.def)             Requested size: 75.28152pt x 24.4227pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -300,39 +300,58 @@ This may cause the page layout to be inconsistent, however.
 pdfTeX warning: pdflatex.exe (file ./ConceptualModel.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
 File: VIAUniversityLogo.pdf Graphic file (type pdf)
 <use VIAUniversityLogo.pdf>
-Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 39.
+Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 48.
 (pdftex.def)             Requested size: 75.28152pt x 24.4227pt.
- [2 <./AmazonMongoDB.pdf
+[2 <./AmazonMongoDB.pdf
 
 pdfTeX warning: pdflatex.exe (file ./AmazonMongoDB.pdf): PDF inclusion: invalid
  other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+File: VIAUniversityLogo.pdf Graphic file (type pdf)
+<use VIAUniversityLogo.pdf>
+Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 66.
+(pdftex.def)             Requested size: 75.28152pt x 24.4227pt.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+File: VIAUniversityLogo.pdf Graphic file (type pdf)
+<use VIAUniversityLogo.pdf>
+Package pdftex.def Info: VIAUniversityLogo.pdf  used on input line 71.
+(pdftex.def)             Requested size: 75.28152pt x 24.4227pt.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (MongoDiagram.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `MongoDiagram.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
- 5228 strings out of 492895
- 78992 string characters out of 3122802
- 166714 words of memory out of 3000000
- 9121 multiletter control sequences out of 15000+200000
- 7579 words of font info for 27 fonts, out of 3000000 for 9000
+ 5246 strings out of 492895
+ 79133 string characters out of 3122802
+ 167741 words of memory out of 3000000
+ 9122 multiletter control sequences out of 15000+200000
+ 7886 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,14n,43p,624b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,14n,43p,570b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Claudiu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Claudiu/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr10.pfb><C:/Users/Claudiu/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Claudiu/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on MongoDiagram.pdf (3 pages, 200097 bytes).
+Output written on MongoDiagram.pdf (5 pages, 214105 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
